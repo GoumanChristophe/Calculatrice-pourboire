@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Pourboire</title>
+</head>
+<body>
+
+    <div class="Tip-Calculator">
+            <h1>Pourboire Calculateur</h1>
+            <h2>Entrée votre montant et les pourcentages de pourboire pour calculer le total</h2>
+        <div id="input">
+            <label for="amount">Montant Addition : </label></br>
+            <input type="number" id="amount" required minlength="1" maxlength="10"></br>
+
+            <label for="tip">Pourcentage de Pourboire : </label></br>
+            <input type="number" id="tip" required minlength="1" maxlength="10"></br>
+        </div>        
+            <button id="btn" type="button">Calculer</button></br>
+        <div class="Total">
+            <p>Total :</p><p id="total"></p>
+        </div>
+    </div>
+
+    <script src="/app.js"> </script>
+</body>
+</html>
